@@ -8,6 +8,11 @@
     background-color: #2d51cb !important;
 }
 
+.main_nav {
+    display: flex;
+    flex-direction: row;
+}
+
 .nav-link {
     color: white;
     font-weight: 500;
@@ -99,3 +104,41 @@
     background-color: rgb(255, 255, 255);
     border-color: rgb(255, 255, 255);
 }
+
+.mid-under-search {
+    background-color: #5688e3;
+    list-style-type: none;
+    margin: 20px 6px;
+    border-radius: 3px;
+    padding: 0px 11px 3px 11px;
+}
+
+.mid-under-search a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.mid-under-search:hover {
+    background-color: #6c97e7;
+}
+
+.size-view{
+    border: 2px solid #81aff1;
+    padding: 2px;
+    border-radius: 200px;
+    width: 110px;
+    height: 110px;
+}
+
+.col-1 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+
+
